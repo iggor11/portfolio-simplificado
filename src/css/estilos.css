@@ -7,7 +7,7 @@ body {
 	font-family: "Poppins", sans-serif;
 	margin: 0 auto;
 	max-width: 1120px;
-	background: linear-gradient(150deg, #000000, #1003c7);
+	background: linear-gradient(150deg, #000103, #1a07c0, #23e4f1);
 	background-size: 120% 120%;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .cabecalho a:hover .logo {
-	color: #9443d8;
+	color: #042aff;
 	border: 2px solid #9443d8;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .cabecalho .menu li a:hover {
-	background-color: #9443d8;
+	background-color: #1a07c0;
 	color: #fff;
 	border-radius: 50px;
 }
@@ -110,7 +110,7 @@ body {
 }
 
 .home .foto.sombra-interna {
-	background: linear-gradient(to right, #2b113d, #38019c, #00caee);
+	background: linear-gradient(to right, #191919, #1a07c0, #28deeb);
 	background-size: 180% 180%;
 	animation: gradient-animation 5s ease infinite;
 }
@@ -194,7 +194,7 @@ body {
 }
 
 .projetos .btn-mostrar-projetos:hover {
-	background-color: #9443d8;
+	background-color: #1a07c0;
 	transition: 0.3s;
 }
 
@@ -217,9 +217,23 @@ body {
 
 .projetos .btn-mostrar-projetos:hover,
 .projetos .btn-mostrar-menos:hover {
-  background-color: #9443d8;
+  background-color: #1a07c0;
 }
 
 .projetos .btn-mostrar-menos {
   display: none;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
