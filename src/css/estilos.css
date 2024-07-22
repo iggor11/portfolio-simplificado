@@ -11,12 +11,23 @@ body {
 	background-size: 120% 120%;
 }
 
-.cabecalho {
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Garante que o vídeo cubra todo o elemento */
+    z-index: -1; /* Coloca o vídeo atrás de todo o conteúdo */
+}
+  
+  .cabecalho {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 30px 15px;
-}
+	z-index: 10;
+  }
 
 .cabecalho .logo {
 	width: 65px;
@@ -32,7 +43,7 @@ body {
 
 .cabecalho a:hover .logo {
 	color: #042aff;
-	border: 2px solid #9443d8;
+	border: 2px solid #2491c4;
 }
 
 .cabecalho .menu li a {
