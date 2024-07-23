@@ -1,5 +1,4 @@
 @media(max-width: 1280px) {
-    
     .cabecalho {
         padding: 30px;
     }
@@ -20,9 +19,14 @@
     .projetos .container-projetos {
         padding: 0 30px;
     }
+
+    body {
+        background-size: cover;
+    }
 }
 
-@media(max-width: 425px) {
+@media(max-width: 812px) {
+
     .home .informacoes h1 {
         font-size: 30px;
     }
@@ -37,5 +41,28 @@
 
     .projetos {
         padding: 30px;
+    }
+
+    body {
+        background-size: cover;
+    }
+}
+
+@media(max-width: 425px) {
+
+    .home .informacoes h1 {
+        font-size: 28px;
+    }
+
+    .home .informacoes p {
+        font-size: 14px;
+    }
+
+    .home .container-foto img {
+        max-width: 280px;
+    }
+
+    body {
+        background-size: cover;
     }
 }
