@@ -7,11 +7,10 @@ body {
 	font-family: "Poppins", sans-serif;
 	margin: 0 auto;
 	max-width: 1120px;
-	background-image: url('./src/imagens/background.GIF');
+	background-image: url('../imagens/background.GIF');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background: linear-gradient(150deg, #000103, #1a07c0, #23e4f1);
 }
   
   .cabecalho {
